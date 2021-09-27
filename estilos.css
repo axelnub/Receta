@@ -1,0 +1,22 @@
+body {background-color: white;}
+.titulo {color:yellow; background:#3498DB; text-align:center;
+ font-size: 300%; font-family:Brush Script MT;}
+ #centro {margin:auto;display: block;}
+ .p1 {text-align: center;font-size:200%; background-color: white}
+.IyP {font-family:monospace;text-decoration: underline;}
+.p2 {font-size:160%; color:yellow; background:pink; text-align: center;}
+.p3 {font-family:monospace;}
+.img {width: auto; height: auto;}
+ header {background-color: #3498DB;}
+ nav {background-color: white;}
+ section {background-color: #3498DB;width: 50%;float: left;}
+ aside {background-color: green;width: 50%;float: right; }
+ footer {background-color: white;clear: both;}
+ .pf {text-align: right;float: right;width: 50%;}
+ .imgpd {float: left;}
+ .loca {margin:auto;display: block;}
+.logow {position: fixed;top: 75%;right: 1%;}
+.links a:hover {color:yellow;background-color: blue;font-size: 20px;}
+.logow img:hover {width: 95%;background-color: yellow;}
+.igim img:hover {width: 25%;}
+aside img:hover {width: 25%;}
