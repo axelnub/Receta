@@ -10,22 +10,42 @@ font-family: "castellar";
 
 body {background-color: white;}
 .titulo {color:yellow; background:#3498DB; text-align:center;
- font-size: 300%; font-family:Brush Script MT; font-size: 3rem;}
+ font-size: 300%; font-family:Brush Script MT; font-size: 3rem;display: flex-center;}
  #centro {margin:auto;display: block;}
  .p1 {text-align: center;font-size:200%; background-color: white; font-size: 1.80em; font-family: castellar; }
 .IyP {font-family: 'Josefin Sans', sans-serif;;text-decoration: underline; font-size: 1.5rem;}
 .p2 {font-size:1.5em; color:yellow; background:pink; text-align: center;font-family: 'Amatic SC', cursive;}
-.img {width: 35vw; height: auto;}
- header {background-color: #3498DB; width: 100%;}
- nav {background-color: white; width: 5vw;}
- section {background-color: #3498DB;width: 50%;float: left;}
- aside {background-color: green;width: 50%;float: right; }
- footer {background-color: white;clear: both; width: 50vh;}
+.img {width: 35vw; height: auto;display: flex;}
+ header {background-color: #3498DB; width: 100%;display:flex-center; }
+ nav {background-color: white; width: 5vw;display: flex;}
+ section {background-color: #3498DB;width: 50%;float: left;display: flex-down;}
+ aside {background-color: green;width: 50%;float: right;display: flex-end;}
+ footer {background-color: white;clear: both; width: 50vh;display: flex-down;}
  .Pf {font-size: 2vw;}
- .loca {margin:auto;display: block;}
-.logow {position: fixed;top: 75%;right: 1%;}
-.links a:hover {color:yellow;background-color: blue;font-size: 20px;}
+ .loca {margin:auto;display: flex;}
+.logow {position: fixed;top: 75%;right: 1%;display: flex;}
+.links a:hover {color:yellow;background-color: blue;font-size: 20px;display: flex;}
 .logow img:hover {width: 95%;background-color: yellow;}
 .igim img:hover {width: 25%;}
 aside img:hover {width: 85%;}
-iframe {width: 65vh;}
+iframe {width: 65vh;display: flex;}
+.break {display: none;}
+@media (max-width:575px) {.iframe1 {display: none;}
+
+}
+
+@media (max-width:575px) {.break {display: block; width: 35vw; height: auto;}
+
+}
+
+@media (max-width:991px) {img {display: none;}
+
+}
+
+@media (max-width:575px) {img {display: block;}
+
+}
+
+@media (min-width:1200px) {aside {background-color: blue;}
+
+}
